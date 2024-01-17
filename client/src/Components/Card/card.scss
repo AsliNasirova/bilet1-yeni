@@ -1,0 +1,64 @@
+.CardArea {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+    .cardBox {
+       
+        .cardImage {
+            overflow: hidden;
+
+            img {
+                transition: 0.4s;
+                width: 100%;
+                height: 300px;
+
+                &:hover {
+
+                    transform: scale(1.2);
+                }
+            }
+
+        }
+
+        .cardTitle {
+
+            .cardIcon {
+                display: flex;
+
+                .star {
+                    display: flex;
+                }
+
+                .heart {
+                    display: flex;
+                }
+            }
+        }
+        .cardButton{
+            display: flex;
+               gap: 20px;
+            .cardBtn{ 
+            
+                width: 60px;
+                height: 30px;
+                border: 1px solid black;
+                background-color: black;
+                color: white;
+
+                // &:hover{
+
+                // }
+            }
+            .wiewBtn{
+                background-color: white;
+                color: black;
+                width: 60px;
+                height: 30px;
+                border: 1px solid black;
+            }
+        }
+
+
+    }
+}

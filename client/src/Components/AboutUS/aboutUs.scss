@@ -1,0 +1,40 @@
+#aboutUS{
+    width: 100%;
+    height: 100vh;
+    margin-top: 40px;
+
+
+    .aboutUs{
+      
+        display: flex;
+    
+    .leftArea_aboutus{
+        width: 48%;
+        margin: auto;
+             position: relative;
+        .imageAboutUs{
+    
+            img{
+                width: 100%;
+                height: 90%;
+            }
+        }
+        .textBoxArea_leftPart{
+        transform: translate(10px,10px);
+            right: 0;
+            z-index: 5;
+            bottom: 0px;
+            position: absolute;
+            width: 50%;
+            height: 80px;
+            background-color: rgb(70,221,176);
+            color: white;
+        }
+    }
+
+    .rightArea_aboutus{
+        margin: auto;
+        width: 38%;
+    }
+}
+}

@@ -1,0 +1,21 @@
+.navbar {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+
+    .text_nav {
+
+        display: flex;
+    }
+
+    .switch_nav {
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
